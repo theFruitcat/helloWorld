@@ -9,7 +9,7 @@ public class StringTest {
 		//初始数据
 		String str = "32_0,15|131_0,3|29_0,8";
     		//初步拆分字符串
-	  String[] str2 = str.split("\\|");
+	  	String[] str2 = str.split("\\|");
     		//对字符串进行比较拆分
 		String[] str3 = str.split("(_\\d+,\\d+\\|)|(_\\d+,\\d+)");
 	  	//创建比较数组 数值+位置
